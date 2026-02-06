@@ -1,0 +1,27 @@
+﻿namespace AmparoIndirectoAPI.Model.DTO
+{
+    public class RequestAbogadoFilters
+    {
+        public List<string> ByFechaRecepcionInicial {  get; set; } = new()!;
+        public List<string> ByFechaRecepcionFinal {  get; set; } = new()!;
+        public List<string> ByFechaInicialVencimiento { get; set; } = new()!;
+        public List<string> ByFechaFinalVencimiento { get; set; } = new()!;
+        public List<string> ByNumeroExpediente { get; set; } = new()!;
+        public List<string> ByNumeroAsunto { get; set; } = new()!;
+        //public List<string> ByJuicioAmparo { get; set; } = new()!; //se modifico
+        public List<string> ByIdJuzgado { get; set; } = new()!;
+        public List<string> ByNombreQuejoso { get; set; } = new()!;
+        public List<string> ByIdMateria { get; set; } = new()!;
+        public List<string> ByIdSubmateria { get; set; } = new()!;
+        public List<string> ByIdTipoActo { get; set; } = new()!;
+        public List<string> ByDespacho { get; set; } = new()!;
+        public List<string> ByIdAdministracion { get; set; } = new()!;
+        public List<string> ByIdSubAdministracion { get; set; } = new()!;
+        public List<string> ByIdAutoridadResponsable { get; set; } = new()!;
+        public List<string> ByRrfcQuejoso { get; set; } = new()!;
+        //public List<string> transparencia { get; set; } = new()!;
+        public List<string> ByIdEstadoTarea { get; set; } = new()!;
+        public List<string> ByIdEstadoProcesal { get; set; } = new()!;
+        public List<string> ByIdEstadoProcesalIncidental { get; set; } = new()!;
+    }
+}

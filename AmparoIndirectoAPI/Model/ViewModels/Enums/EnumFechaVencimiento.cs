@@ -1,0 +1,15 @@
+﻿namespace AmparoIndirectoAPI.Model.ViewModels.Enums
+{
+    public enum EnumFechaVencimiento
+    {
+        INFORME_JUSTIFICADO_CONSTITUCIONAL = 6,
+        CUMPLIMIENTO_DEL_FALLO_PROTECTOR = 8,
+        RECURSO_DE_QUEJA_PRINCIPAL = 9,
+        RECURSO_DE_REVISION_PRINCIPAL = 10,
+        RECURSO_DE_RECLAMACIÓN = 12,
+        INFORME_PREVIO_INCIDENTAL = 14,
+        RECURSO_DE_QUEJA_INCIDENTAL = 16,
+        RECURSO_DE_REVISION_INCIDENTAL = 17,
+
+    }
+}
